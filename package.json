@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "dev": "vuepress dev .",
+   "build": "vuepress build ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/lif3ng/lif3ng.github.io/issues"
   },
-  "homepage": "https://github.com/lif3ng/lif3ng.github.io#readme"
+  "homepage": "https://github.com/lif3ng/lif3ng.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  }
 }

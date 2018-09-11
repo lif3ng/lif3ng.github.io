@@ -1,0 +1,14 @@
+<template>
+    <div class="home-card-container"><slot /></div>
+</template>
+<style lang="stylus">
+.home-card-container
+    border-top: 1px solid #eaecef;
+    padding: 1.2rem 0;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+    justify-content: space-between;
+</style>
