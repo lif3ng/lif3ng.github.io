@@ -11,7 +11,7 @@
         methods:{
             handleClick(){
                 console.log(this.text)
-                window.open(`/${this.text.toLowerCase()}`)
+                window.open(`/${this.text.toLowerCase()}/`)
             }
         }
     }
@@ -27,5 +27,5 @@
         box-sizing: border-box;
         text-align: center;
         cursor: pointer
-
+        margin-bottom: 20px
 </style>

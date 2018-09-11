@@ -2,6 +2,7 @@
 home: true
 navbar: false
 cards:
+- Node
 - Webpack
 - Vue
 - AI
