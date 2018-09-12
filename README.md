@@ -1,14 +1,13 @@
 ---
 home: true
-navbar: false
+# navbar: false
+sidebar: true
 cards:
 - Node
-- Webpack
-- Vue
-- AI
+- Git
 ---
 
-{{JSON.stringify($page.cards)}}
 <HomeCardContainer>
-    <HomeCard v-for="card in $page.frontmatter.cards" :text="card" :key="card"/>
+<HomeCard v-for="card in $page.frontmatter.cards" :text="card" :key="card"/>
 </HomeCardContainer>
+<!-- <HomeCard v-for="card in $page.frontmatter.cards" :text="card" :key="card"/> -->

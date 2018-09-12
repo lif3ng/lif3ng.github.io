@@ -5,5 +5,12 @@ module.exports = {
         nav:[
            
         ],
+        sidebar:{
+            '/git/':['ssh'],
+            '/node/':['','setup','yarn_or_npm'],
+            '/webpack/':[''],
+            '/':['/webpack/','/node/'],
+
+        }
     }   
 }

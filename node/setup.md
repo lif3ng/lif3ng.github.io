@@ -1,9 +1,8 @@
 ---
-sidebar: auto
-navbar: false
+# sidebar: auto
+# navbar: false
 ---
 # Node 环境安装
-
 ## Windows
 ### nvm
 * 下载安装
@@ -54,4 +53,4 @@ nvm use 8.12.0
 npm config set registry https://registry.npm.taobao.org
 yarn config set registry https://registry.npm.taobao.org
 ```
-也可以使用[verdaccio](https://github.com/verdaccio/verdaccio)搭建本地缓存源在离线情况下安装依赖构建工程。
+也可以使用 [verdaccio](https://github.com/verdaccio/verdaccio) 搭建本地缓存源在离线情况下安装依赖构建工程。
