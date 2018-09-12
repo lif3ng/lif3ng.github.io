@@ -5,6 +5,13 @@
 windows 可以安装 cmder、babun
 
 ## 常见问题
-- SSH 设置后每次 push 还需要输入 username、password
-  
-  由于克隆时使用了 HTTPS 的 URL 而没有使用 ssh 的 URL, 可以修改 `.git/config` 中的URL。
+
+- SSH 设置后每次 push 还需要输入 username、password由于克隆时使用了 HTTPS 的 URL 而没有使用 ssh 的 URL, 可以修改 `.git/config` 中的URL。
+
+
+
+## 参考
+
+- [ Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+

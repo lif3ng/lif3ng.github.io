@@ -6,8 +6,18 @@ module.exports = {
            
         ],
         sidebar:{
+            '/note/designcode/':[
+                {
+                    title: 'Learn iOS11 Design',
+                    children: [
+                        'ios11design/ios11',
+                        'ios11design/iphonex',
+                    ]
+                }
+            ],
+            '/note/':['designcode/'],
             '/git/':['ssh'],
-            '/node/':['','setup','yarn_or_npm'],
+            '/nodejs/':['setup','yarn_or_npm'],
             '/webpack/':[''],
             '/':['/webpack/','/node/'],
 
