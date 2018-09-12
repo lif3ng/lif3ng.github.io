@@ -16,10 +16,10 @@ module.exports = {
                 }
             ],
             '/note/':['designcode/'],
-            '/git/':['ssh'],
+            '/git/':['ssh','fetch_branch'],
             '/nodejs/':['setup','yarn_or_npm'],
             '/webpack/':[''],
-            '/':['/webpack/','/node/'],
+            '/':['/webpack/','/nodejs/'],
 
         }
     }   
