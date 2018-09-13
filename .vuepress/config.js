@@ -10,8 +10,14 @@ module.exports = {
                 {
                     title: 'Learn iOS11 Design',
                     children: [
-                        'ios11design/ios11',
-                        'ios11design/iphonex',
+                        'iosdesign/ios11',
+                        'iosdesign/iphonex',
+                    ]
+                },
+                {
+                    title: 'Learn Sketch',
+                    children: [
+                        'sketch/learn'
                     ]
                 }
             ],
