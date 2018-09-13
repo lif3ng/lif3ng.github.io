@@ -6,6 +6,11 @@ module.exports = {
            
         ],
         sidebar:{
+            '/note/aliyunai/':[
+                {
+                    title: 'Python'
+                }
+            ],
             '/note/designcode/':[
                 {
                     title: 'Learn iOS11 Design',
@@ -15,7 +20,7 @@ module.exports = {
                     ]
                 }
             ],
-            '/note/':['designcode/'],
+            '/note/':['designcode/','aliyunai/'],
             '/git/':['ssh','fetch_branch'],
             '/nodejs/':['setup','yarn_or_npm'],
             '/webpack/':[''],
