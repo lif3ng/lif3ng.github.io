@@ -31,7 +31,7 @@ module.exports = {
             ],
             '/note/':['designcode/','aliyunai/'],
             '/git/':['ssh','fetch_branch'],
-            '/nodejs/':['setup','yarn_or_npm'],
+            '/nodejs/':['setup','yarn_or_npm','import_export'],
             '/webpack/':[''],
             '/':['/webpack/','/nodejs/'],
 
