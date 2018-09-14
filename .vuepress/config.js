@@ -8,7 +8,10 @@ module.exports = {
         sidebar:{
             '/note/aliyunai/':[
                 {
-                    title: 'Python'
+                    title: 'Python',
+                    children:[
+                        'py/1'
+                    ]
                 }
             ],
             '/note/designcode/':[
