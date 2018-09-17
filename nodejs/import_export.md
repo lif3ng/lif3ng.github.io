@@ -1,6 +1,6 @@
 # import & export
 
-## Node.js modules
+## CommonJS (Node.js modules)
 
 ### export
 
@@ -26,5 +26,7 @@ modele.exports = () => {}
 
 ## ES6
 
+todo
 
 - [Node.js Modules](https://nodejs.org/dist/latest-v8.x/docs/api/modules.html)
+- [CommonJS](http://www.commonjs.org/specs/modules/1.0/)

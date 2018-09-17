@@ -6,6 +6,8 @@ cards:
 - Note
 - NodeJs
 - Git
+- Webpack
+
 ---
 
 <HomeCardContainer>
