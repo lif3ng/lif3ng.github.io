@@ -28,12 +28,19 @@ module.exports = {
                     children: [
                         'sketch/learn'
                     ]
+                },
+                {
+                    title:'Web',
+                    children:[
+                        'react/gatsby'
+                    ]
                 }
             ],
             '/note/':['designcode/','aliyunai/'],
             '/git/':['ssh','fetch_branch'],
             '/nodejs/':['setup','yarn_or_npm','import_export'],
             '/webpack/':['setup','style'],
+            '/electron/':['webview'],
             '/':['/webpack/','/nodejs/'],
 
         }

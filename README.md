@@ -7,6 +7,7 @@ cards:
 - NodeJs
 - Git
 - Webpack
+- Electron
 
 ---
 

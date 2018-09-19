@@ -3,7 +3,7 @@
 ## 全局安装
 
 ```
-npm i -g webpack
+npm i -g webpack 
 ```
 
 ## 项目中安装使用
