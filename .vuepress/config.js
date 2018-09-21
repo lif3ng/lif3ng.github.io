@@ -38,7 +38,7 @@ module.exports = {
             ],
             '/note/':['designcode/','aliyunai/'],
             '/git/':['ssh','fetch_branch','with_jenkins'],
-            '/nodejs/':['setup','yarn_or_npm','import_export'],
+            '/nodejs/':['setup','yarn_or_npm','import_export','child_process'],
             '/webpack/':['setup','style'],
             '/electron/':['webview'],
             '/':['/webpack/','/nodejs/'],
