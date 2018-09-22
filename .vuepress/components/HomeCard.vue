@@ -1,6 +1,6 @@
 <template>
     <div class="home-card" @click="handleClick">
-        {{text}}
+        {{tt(text)}}
     </div>
 </template>
 <script>
@@ -10,9 +10,14 @@
         },
         methods:{
             handleClick(){
-                console.log(this.text)
-                window.open(`/${this.text.toLowerCase()}/`)
+                window.open(`/${this.text}/`)
+            },
+            tt(key){
+                return this.t(`card.${key}`)
             }
+        },
+        mounted(){
+            console.log(this)
         }
     }
 </script>

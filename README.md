@@ -3,11 +3,12 @@ home: true
 # navbar: false
 sidebar: true
 cards:
-- Note
-- NodeJs
-- Git
-- Webpack
-- Electron
+- note
+- nodejs
+- git
+- webpack
+- electron
+- readcode
 
 ---
 
