@@ -16,6 +16,9 @@ module.exports = {
           ],
         },
       ],
+      '/note/vscode/':[
+        '03','04'
+      ],
       '/note/designcode/': [
         {
           title: 'Learn iOS11 Design',
@@ -37,7 +40,7 @@ module.exports = {
           ],
         },
       ],
-      '/note/': ['designcode/', 'aliyunai/'],
+      '/note/': ['designcode/', 'aliyunai/','vscode/'],
       '/git/': ['ssh', 'fetch_branch', 'with_jenkins'],
       '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'child_process'],
       '/webpack/': ['setup', 'style'],
