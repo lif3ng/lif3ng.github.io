@@ -3,6 +3,7 @@ home: true
 # navbar: false
 sidebar: true
 cards:
+- fe
 - note
 - nodejs
 - git

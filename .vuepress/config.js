@@ -16,8 +16,8 @@ module.exports = {
           ],
         },
       ],
-      '/note/vscode/':[
-        '03','04'
+      '/note/vscode/': [
+        '03', '04',
       ],
       '/note/designcode/': [
         {
@@ -40,7 +40,16 @@ module.exports = {
           ],
         },
       ],
-      '/note/': ['designcode/', 'aliyunai/','vscode/'],
+      '/fe/': [
+        {
+          title: 'DOM 事件',
+          children: [
+            'dom/event/drag',
+          ],
+
+        },
+      ],
+      '/note/': ['designcode/', 'aliyunai/', 'vscode/'],
       '/git/': ['ssh', 'fetch_branch', 'with_jenkins'],
       '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'child_process'],
       '/webpack/': ['setup', 'style'],
@@ -52,6 +61,7 @@ module.exports = {
         '/webpack/',
         '/electron/',
         '/readcode/',
+        '/fe/',
       ],
     },
   },
