@@ -49,6 +49,24 @@ module.exports = {
 
         },
       ],
+      '/readcode/': [
+        {
+          title: 'element',
+          children: [
+            'element/',
+          ],
+        },
+        {
+          title: 'vuepress',
+          children: [
+            'vuepress/',
+            'vuepress/scripts',
+            'vuepress/code/bin',
+          ],
+        },
+        'element/',
+        'vuepress/',
+      ],
       '/note/': ['designcode/', 'aliyunai/', 'vscode/'],
       '/git/': ['ssh', 'fetch_branch', 'with_jenkins'],
       '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'child_process'],
