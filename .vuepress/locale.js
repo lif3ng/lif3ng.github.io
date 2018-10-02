@@ -7,5 +7,6 @@ export default {
     webpack: 'Webpack',
     electron: 'Electron',
     readcode: '读源码笔记',
+    book: '读书笔记',
   },
 };

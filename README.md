@@ -10,6 +10,7 @@ cards:
 - webpack
 - electron
 - readcode
+- book
 
 ---
 

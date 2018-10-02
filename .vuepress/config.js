@@ -69,9 +69,10 @@ module.exports = {
       ],
       '/note/': ['designcode/', 'aliyunai/', 'vscode/'],
       '/git/': ['ssh', 'fetch_branch', 'with_jenkins'],
-      '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'child_process'],
+      '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'ts', 'child_process'],
       '/webpack/': ['setup', 'style'],
       '/electron/': ['webview'],
+      '/book/': ['cssworld/'],
       '/': [
         '/note/',
         '/nodejs/',
