@@ -12,3 +12,8 @@
 webview.addEventListener('new-window', ({url})=>{
     webview.setAttribute('src',url)
 })
+```
+
+
+
+[\<webview\>标签 | Electron](https://electronjs.org/docs/api/webview-tag)
