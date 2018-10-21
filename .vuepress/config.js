@@ -1,6 +1,11 @@
 module.exports = {
   title: 'lif3ng\'s Blog',
   description: 'Some exercises and notes',
+  markdown: {
+    config: md => {
+      md.use(require("markdown-it-katex"));
+    }
+  },
   themeConfig: {
     nav: [
 

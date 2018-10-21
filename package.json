@@ -34,6 +34,7 @@
     "vuepress": "^0.14.2"
   },
   "dependencies": {
+    "markdown-it-katex": "^2.0.3",
     "vue-i18n": "^8.1.0"
   }
 }
