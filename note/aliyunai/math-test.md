@@ -1,5 +1,11 @@
 test
 
+$J()$
+
+$R_{srm}(f)= \dfrac 1 N \displaystyle\sum_{i=1}^N L(Y,f(x))+\lambda J(f)$
+
+$Lp = \sqrt[p]{\sum_{i=1}^n x_i^p}$
+
 $J \left( \theta_0, \theta_1 \right) = \frac{1}{2m}\sum\limits_{i=1}^m \left( h_{\theta}(x^{(i)})-y^{(i)} \right)^{2}$
 
 
