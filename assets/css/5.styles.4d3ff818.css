@@ -1,0 +1,1 @@
+.version-item{border:1px solid #ccc;border-radius:5px;display:inline-block;background:linear-gradient(90deg,#aaa 50%,#fff 51%)}.version-item+.version-item{margin-left:10px}.version-item>span{display:inline-block;height:100%;text-align:center;width:60px}.version-item>span:first-child{color:#fff}
