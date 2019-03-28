@@ -2,9 +2,9 @@ module.exports = {
   title: 'lif3ng\'s Blog',
   description: 'Some exercises and notes',
   markdown: {
-    config: md => {
-      md.use(require("markdown-it-katex"));
-    }
+    config: (md) => {
+      md.use(require('markdown-it-katex'));
+    },
   },
   themeConfig: {
     nav: [
@@ -75,7 +75,7 @@ module.exports = {
       '/note/': ['designcode/', 'aliyunai/', 'vscode/'],
       '/git/': ['ssh', 'fetch_branch', 'with_jenkins'],
       '/nodejs/': ['setup', 'yarn_or_npm', 'import_export', 'ts', 'child_process'],
-      '/webpack/': ['setup', 'style'],
+      '/webpack/': ['setup', 'style', 'react'],
       '/electron/': ['webview'],
       '/book/': ['cssworld/'],
       '/': [
